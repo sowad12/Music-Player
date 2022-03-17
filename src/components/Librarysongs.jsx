@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Song = ({currentSong}) => {
-  // console.log(currentSong)
+const Librarysongs = ({currentSong}) => {
+  
   return (
- <div className="song-container">
+ <div className="librarys-song">
      
      <img src={currentSong.cover} alt="" />
      <h2>{currentSong.name}</h2>
@@ -12,4 +12,4 @@ const Song = ({currentSong}) => {
   )
 }
 
-export default Song
+export default Librarysongs;

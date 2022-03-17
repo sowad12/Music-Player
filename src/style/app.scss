@@ -3,6 +3,8 @@
     padding:0;
     box-sizing:border-box;
 }
-
+h1,h2,h3{
+    color:rgb(68, 65, 65)
+}
 @import './song.scss';
 @import './player.scss'

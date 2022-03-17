@@ -10,35 +10,24 @@ function musicList(){
           id:uuidv4,
           active:false  
        },
-       {
-        name:'Bad Liar',
-        cover:"https://a10.gaanacdn.com/gn_img/albums/XzVWRLKdqR/zVWR511A3d/size_l.webp",
-        artist:'Imagine Dragons',
-        audio:'https://gaana.com/song/bad-liar-13',
-        color:['#8C7C58','#B28559'],
-        id:uuidv4,
-        active:false  
-     },
      {
-        name:'Hymn for the Weekend',
-        cover:"https://a10.gaanacdn.com/gn_img/albums/a7LWBkzbzX/7LWBnrvjWz/size_l.webp",
-        artist:'Coldplay',
-        audio:'https://gaana.com/song/hymn-for-the-weekend',
-        color:['#461E27','#98D1F1'],
-        id:uuidv4,
-        active:false  
-     },
-
-  {
-        name:'Hall of Fame',
-        cover:"https://a10.gaanacdn.com/gn_img/albums/81l3Mye3rM/1l3MG2GbrM/size_l.webp",
-        artist:'The Script, Will.i.am',
-        audio:'https://gaana.com/song/hall-of-fame-2',
-        color:['#461E27','#98D1F1'],
-        id:uuidv4,
-        active:false  
-     }
-     
+      name:'Hung Up',
+      cover:"https://chillhop.com/wp-content/uploads/2021/09/dc49d7971512be0192848d072efdaaab91a4c73c-1024x1024.jpg",
+      artist:'Ezzy',
+      audio:'https://mp3.chillhop.com/serve.php/?mp3=24699',
+      color:['#D44847','#F9DEA9'],
+      id:uuidv4,
+      active:false  
+   },
+   {
+      name:'la zona',
+      cover:"https://chillhop.com/wp-content/uploads/2021/11/3ff29a35be582c8dc0222273cb9c401ea6b209dc-1024x1024.jpg",
+      artist:'Maydee',
+      audio:'https://mp3.chillhop.com/serve.php/?mp3=27455',
+      color:['#BCCCDC','#C6CDD5'],
+      id:uuidv4,
+      active:false  
+   }
    ] 
 }
 export default musicList;
